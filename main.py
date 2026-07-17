@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"status": "online", "mensaje": "¡Hola desde FastAPI en producción!", "bootcamp": "GCP DevOps"}
+    return {"status": "online", "mensaje": "¡Hola Giles"}
 
 @app.get("/usuarios")
 def get_usuarios():
