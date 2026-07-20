@@ -1,0 +1,23 @@
+# Entornos virtuales (cubre variaciones de nombres)
+.venv/
+venv/
+env/
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Variables de entorno y credenciales (¡Muy importante para GCP!)
+.env
+.env.*
+*.pem
+*.json
+
+# Archivos del sistema y editores
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
