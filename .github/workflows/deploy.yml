@@ -42,4 +42,5 @@ jobs:
           --image northamerica-northeast1-docker.pkg.dev/sound-inkwell-393900/mi-repo/mi-api-docker:latest \
           --region northamerica-northeast1 \
           --port 8000 \
-          --allow-unauthenticated
+          --allow-unauthenticated \
+          --set-env-vars "DATABASE_URL=${{ secrets.DATABASE_URL }}"
