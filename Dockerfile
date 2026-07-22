@@ -5,7 +5,7 @@ FROM python:3.10-slim
 WORKDIR /app
 
 # 3. Instalar las herramientas y librerías necesarias
-RUN pip install fastapi uvicorn python-dotenv sqlalchemy psycopg2-binary
+RUN pip install fastapi uvicorn python-dotenv sqlalchemy psycopg2-binary google-cloud-storage python-multipart
 
 # 4. Copiar nuestro código a la caja
 COPY main.py .
